@@ -1,0 +1,95 @@
+body {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background: url('images/img3.jpg');
+}
+
+.logo {
+    display: inline-block;
+    /* border: 2px solid lime; */
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    /* text-align: center; */
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.logo div {
+    text-align: center;
+    line-height: 0px;
+    font-weight: bold;
+    /* margin: auto; */
+}
+
+.middle {
+    /* border: 2px solid brown; */
+    display: block;
+    width: 40%;
+    margin: 50px auto;
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid blueviolet; */
+    position: absolute;
+    right: 34px;
+    top: 65px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: wheat;
+    text-decoration: none;
+    margin: 18px;
+    padding: 34px 0px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: bold underline;
+    color: rgb(241, 187, 10);
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 3px 3px 2px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.container {
+    border: 2px solid rgb(216, 233, 216);
+    margin: 150px 40px;
+    padding: 50px 50px 50px 50px;
+    width: 33%;
+    border-radius: 10px;
+    /* display: inline-block; */
+}
+
+.container button {
+    padding: 5px 10px 10px 5px;
+    margin: 10px;
+}
+
+
+}
